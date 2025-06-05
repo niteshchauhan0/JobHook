@@ -4,6 +4,11 @@ JobHook is a full-stack job portal application consisting of a **Spring Boot bac
 
 ---
 
+## 🔗 Live Demo
+
+Check out the live application here: [JobHook - Job Portal](https://lnkd.in/gqXtYJQV)
+
+
 ## Project Structure
 
 - **backend/** — Spring Boot backend application  
