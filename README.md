@@ -1,98 +1,135 @@
-# JobHook - Job Portal Application
+<h1 align="center">💼 JobHook - Job Portal Application</h1>
 
-JobHook is a full-stack job portal application consisting of a **Spring Boot backend** and a **React frontend**. It enables users to find jobs, apply, post jobs, manage profiles, and more.
+<p align="center">
+  A modern full-stack job portal with role-based login, job listings, applications, and user profiles.  
+  <br/>
+  <strong>Spring Boot + React + MongoDB</strong>
+</p>
 
----
-
-## 🔗 Live Demo
-
-Check out the live application here: [JobHook - Job Portal](https://lnkd.in/gqXtYJQV)
-
-
-## Project Structure
-
-- **backend/** — Spring Boot backend application  
-- **frontend/** — React.js frontend application
-
----
-
-## Features
-
-- User authentication with JWT  
-- Role-based access control (Applicant, Recruiter)  
-- Job posting, searching, and applying  
-- Profile management (Experience, Certifications, Skills)  
-- Notifications system  
-- Responsive UI built with Material UI and React  
-- RESTful APIs implemented using Spring Boot
+<p align="center">
+  <a href="https://lnkd.in/gqXtYJQV" target="_blank"><img src="https://img.shields.io/badge/🔗%20Live%20Demo-Click%20Here-blue?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Database-MongoDB-lightgreen?style=for-the-badge">
+</p>
 
 ---
 
-## Prerequisites
+## 🚀 Overview
 
-- Java 17+ (or compatible with Spring Boot setup)  
-- Maven 3.6+  
-- Node.js 16+ and npm/yarn  
-- MongoDB (local or cloud instance)  
-- Optional: Docker (for containerization)
+**JobHook** is a full-stack job portal application with a **Spring Boot backend** and a **React frontend**.  
+It empowers users to:
+
+- 🔍 Search and apply for jobs  
+- 🧑‍💼 Post job listings as a recruiter  
+- 📝 Manage resumes, skills, experience  
+- 🔐 Login with role-based access (Applicant/Recruiter)  
 
 ---
 
-## Technologies Used
 
-**Backend:**  
+## 📁 Project Structure
+```
+JobHook/
+├── backend/ # Spring Boot backend
+└── frontend/ # React.js frontend
+
+```
+
+---
+
+## ✨ Key Features
+
+- 🔐 **JWT-based Authentication**
+- 🎭 **Role-based Access Control**
+- 📢 **Job Posting & Application System**
+- 📝 **Dynamic Profile Management**
+- 🔔 **Notification System**
+- 📱 **Fully Responsive UI (Material UI)**
+- 🌐 **RESTful API Integration**
+
+---
+
+## 🛠️ Prerequisites
+
+Before running the project, ensure you have:
+
+- **Java 17+**  
+- **Maven 3.6+**  
+- **Node.js 16+**, **npm/yarn**  
+- **MongoDB** (Local/Cloud)  
+- *Optional:* Docker (for containerization)
+
+---
+
+## 🧰 Technologies Used
+
+### 🔧 Backend:
 - Spring Boot  
 - Spring Security  
-- JWT (JSON Web Tokens)  
-- Maven  
+- JWT  
 - MongoDB  
+- Maven  
 
-**Frontend:**  
+### 🎨 Frontend:
 - React  
 - TypeScript  
 - Redux Toolkit  
 - Material UI  
 - Axios  
 
-**Others:**  
-- Docker (optional)  
-- RESTful API architecture
+### 🧱 Others:
+- Docker *(optional)*  
+- RESTful API Design
 
 ---
 
-## Backend Setup (Spring Boot)
+## ⚙️ Backend Setup
 
-1. Navigate to the backend directory:
+```bash
+# 1. Navigate to backend directory
+cd backend
 
-   ```bash
-   cd backend
-2. Configure MongoDB connection in src/main/resources/application.properties or application.yml:
+# 2. Configure MongoDB connection
+# Edit src/main/resources/application.properties or application.yml
 spring.data.mongodb.uri=mongodb://localhost:27017/jobhook_db
 
-Replace the URI with your MongoDB connection string if using a cloud service like MongoDB Atlas
-
-3. Build and run the backend:
+# 3. Build and run backend
 ./mvnw clean install
 ./mvnw spring-boot:run
 
--- Or run directly from your IDE.
+```
+Or run directly from your IDE.
 
+---
 
-## Frontend Setup (React)
+💻 Frontend Setup
 
-1. Navigate to the frontend directory: cd ../frontend
+```
+# 1. Navigate to frontend directory
+cd ../frontend
 
-2. Install dependencies: npm install
+# 2. Install dependencies
+npm install
 
-3. Start the frontend development server: npm start
+# 3. Start the development server
+npm start
+```
 
--- The frontend will be accessible at http://localhost:3000.
+🔗 Now visit: http://localhost:3000
 
+---
 
-Contribution
+🤝 Contribution
+Contributions are welcome! 🚀
+Feel free to fork the repo, create a branch, and submit a pull request.
 
-Contributions are welcome! Feel free to fork the repo and submit pull requests. For issues or feature requests, please open an issue on GitHub.
+📌 For feature requests or bug reports, open an issue.
 
-Contact: 
-Created by Nitesh Singh
-Email: niteshchauhan1717@gmail.com
+---
+
+## 📬 Contact
+
+**Created by:** Nitesh Singh  
+📧 **Email:** [niteshchauhan1717@gmail.com](mailto:niteshchauhan1717@gmail.com)
+
