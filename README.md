@@ -7,10 +7,13 @@
 </p>
 
 <p align="center">
-  <a href="https://lnkd.in/gqXtYJQV" target="_blank"><img src="https://img.shields.io/badge/🔗%20Live%20Demo-Click%20Here-blue?style=for-the-badge"></a>
-  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Database-MongoDB-lightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge" alt="Backend">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" alt="Frontend">
+  <img src="https://img.shields.io/badge/Database-MongoDB-lightgreen?style=for-the-badge" alt="Database">
+</p>
+
+<p align="center">
+  🔗 <strong>Live Demo:</strong> <a href="https://jobportal-frontend-ynnl.onrender.com/" target="_blank">https://jobportal-frontend-ynnl.onrender.com/</a>
 </p>
 
 ---
